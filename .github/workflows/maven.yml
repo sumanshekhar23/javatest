@@ -33,4 +33,4 @@ jobs:
     - name: Attest
       uses: actions/attest-build-provenance@v1
       with:
-         subject-path: '${{ github.workspace }}/target'
+         subject-path: '${{ github.workspace }}/target/javaparser-maven-sample-1.0-SNAPSHOT.jar'
